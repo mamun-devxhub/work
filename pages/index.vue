@@ -1,6 +1,5 @@
-<script setup lang="ts">
-import { NuxtFacebookChatOptions } from "nuxt-facebook-chat";
-const options: NuxtFacebookChatOptions = {
+<script setup>
+const options = {
   pageId: "106014354867607", // Your Facebook Page ID
   locale: "th_TH", // Set the locale for the chat
   themeColor: "#E04040", // Customize the chat theme color
